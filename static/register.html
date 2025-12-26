@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script type="module" src="js/register.js"></script>
+    <script src="js/top.js"></script>
+    <title>WestOrc</title>
+    <style>
+        .hidden {display: none;}
+        .top {position: fixed; bottom: 50px; right: 30px; z-index: 99;}
+    </style>
+</head>
+<body>
+    <header class="text-white p-1 text-center" style="background-color: #270042"><h1>Register</h1></header> 
+    <nav class="navbar navbar-expand-lg " style="background-color: #9400D3;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav container d-flex justify-content-center">
+                    <a class="nav-link text-white hidden" href="index.html">Home</a>
+                    <a class="nav-link text-white hidden" href="user.html">User</a>
+                    <a class="nav-link active link-danger fw-bold hidden" aria-current="page" href="login.html">Login</a>
+                    <a class="nav-link text-white hidden" href="event.html">Events</a>
+                    <a class="nav-link text-white hidden" href="payment.html">Cart</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <form id="uploadForm" action="/auth/uploadImage" method="post" enctype="multipart/form-data">
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 justify-content-center">
+            <div>
+                <div class="p-3 text-center">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="p-3 text-center">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="p-3 text-center">
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="p-3 text-center">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="p-3 text-center">
+                    <label for="repeat">Repeat your Password:</label>
+                    <input type="password" id="repeat" name="repeat">
+                </div>
+                <div class="p-3 text-center">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+            </div>
+            <div>
+                <div class="p-3 text-center">
+                    <label for="image">Profile Image (default icon will be used if no image is uploaded)</label><br>
+                    <input type="file" id="image" name="image" accept="image/png, image/jpeg, image/jpg">
+                    <img class="w-50 h-75 object-fit-cover border rounded”" src="assets/icon.jpg" alt="icon">
+                </div>
+                <div class="text-center">
+                    <a href="login.html" class="btn btn-secondary m-2">Back</a>
+                    <button type="button" id="registerButton" class="btn btn-primary m-2">Register</button>
+                    <input type="reset" class="btn btn-secondary m-2" value="Reset">
+                </div>
+            </div>
+        </div>
+    </form>
+        <button type="button" id="goToTop" class="btn btn-primary m-3 top hidden">^</button>
+    <!-- add a clear row to prevent footer hiding body text -->
+    <div style="height:100px"></div>
+    <footer class="text-white p-2 text-center fixed-bottom" style="background-color: #270042">Address: somewhere on earth<br>Email: westorc@music.com</footer>
+</body>
+</html>

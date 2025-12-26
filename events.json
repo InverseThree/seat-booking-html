@@ -1,0 +1,105 @@
+[
+  {
+    "event": "event1",
+    "title": "Orc Concert",
+    "date": "29 Feb 2025",
+    "time": "25:00-30:00",
+    "venue": "HK Polytechnic University",
+    "info": [
+      {
+        "price": "4432",
+        "tier": "1",
+        "seat": "20",
+        "booked": "10",
+        "status": "available"
+      },
+      {
+        "price": "3432",
+        "tier": "2",
+        "seat": "30",
+        "booked": "30",
+        "status": "full"
+      },
+      {
+        "price": "2432",
+        "tier": "3",
+        "seat": "40",
+        "booked": "39",
+        "status": "available"
+      },
+      {
+        "price": "1432",
+        "tier": "4",
+        "seat": "50",
+        "booked": "50",
+        "status": "full"
+      }
+    ],
+    "description": "Concert held by Hong Kong Orchestral Union."
+  },
+  {
+    "event": "event2",
+    "title": "Free Job",
+    "date": "any date",
+    "time": "any time",
+    "venue": "KK Park",
+    "info": [
+      {
+        "price": "0",
+        "tier": "1",
+        "seat": "200",
+        "booked": "199",
+        "status": "available"
+      }
+    ],
+    "description": "A classical by the orchestral group Scam!"
+  },
+  {
+    "event": "event3",
+    "title": "The Truth",
+    "date": "25 Dec 2020",
+    "time": "01:43-13:43",
+    "venue": "Black Space",
+    "info": [
+      {
+        "price": "143",
+        "tier": "1",
+        "seat": "1",
+        "booked": "1",
+        "status": "full"
+      }
+    ],
+    "description": "Only you can discover the truth that was locked away."
+  },
+  {
+    "event": "event4",
+    "title": "Time Unlimited",
+    "date": "Year Zero",
+    "time": "lim(x→∞) x",
+    "venue": "In-Between Theater",
+    "info": [
+      {
+        "price": "9001",
+        "tier": "1",
+        "seat": "10",
+        "booked": "0",
+        "status": "available"
+      },
+      {
+        "price": "9000",
+        "tier": "2",
+        "seat": "5",
+        "booked": "0",
+        "status": "available"
+      },
+      {
+        "price": "8999",
+        "tier": "3",
+        "seat": "1",
+        "booked": "0",
+        "status": "available"
+      }
+    ],
+    "description": "A performance that goes beyond time and space."
+  }
+]

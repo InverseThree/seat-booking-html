@@ -1,0 +1,34 @@
+[
+ {
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "username": "alice",
+  "password": "$2a$10$58APszDRZXxw5MsPsoFHcO/GLCHEH.GdiajQ9L9rA4IwzJ72sGApW",
+  "email": "alicecila@realmail.com",
+  "role": "user"
+ },
+ {
+  "firstName": "John",
+  "lastName": "Doe",
+  "username": "bob",
+  "password": "$2a$10$5Jr39Gk1i1JMJZRTGiqRF.QfFnsQxQ5HNSeHleeotaUuvRQi.UKKi",
+  "email": "bob1234@realmail.com",
+  "role": "user"
+ },
+ {
+  "firstName": "Hacker",
+  "lastName": "Man",
+  "username": "janice",
+  "password": "$2a$10$VUEb4u7BZbEn22Ic2ul5IOFm.2D2jXkSQNpJn1YA8Y6HiqMK/RKaq",
+  "email": "icecream4432@fakemail.com",
+  "role": "user"
+ },
+ {
+  "firstName": "ImAdmin",
+  "lastName": "WhyAreUTryingToGetMyName",
+  "username": "admin",
+  "password": "$2a$10$y8JO4SATj4hlCIDNZ2LmtuXlhhRoFfnGHhpPxtRuXDDqhrt99zPZi",
+  "email": "ihatemylifeorz@realmail.com",
+  "role": "admin"
+ }
+]
